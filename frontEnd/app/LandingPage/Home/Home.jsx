@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 function Home() {
   return (
     <>
+=======
+import Navbar from "../Components/NavBar/NavBar";
+
+function Home() {
+  return (
+    <>
+    <Navbar/>
+>>>>>>> master
       <section className="w-screen h-screen md: flex flex-col bg-blue-light text-white overflow-x-hidden">
         <section className="heroSection w-full h-full p-3 flex flex-col gap-10">
           <div className=" gap-30 flex justify-center p-10">
